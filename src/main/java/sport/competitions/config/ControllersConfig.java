@@ -11,5 +11,4 @@ public class ControllersConfig implements WebMvcConfigurer  {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/competitions").setViewName("competitions");
     }
-
 }

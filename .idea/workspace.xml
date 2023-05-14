@@ -4,49 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ce0b6e-b640-4ded-aa02-3d11bdfcd990" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/config/ControllersConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/db/dao/CompetitionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/db/model/Competition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/rest/CompetitionRestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/service/CompetitionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/service/CompetitionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/angular-1.7.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/competitions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/competitions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/logback.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/Application.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/config/ControllersConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/config/WebSecurityConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/db/dao/CompetitionRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/db/model/Competition.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/rest/CompetitionRestService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/service/CompetitionService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/sport/competitions/service/CompetitionServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/angular-1.7.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/competitions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-1.9.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/competitions.html" afterDir="false" />
+    <list default="true" id="13ce0b6e-b640-4ded-aa02-3d11bdfcd990" name="Changes" comment="add">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sport/competitions/config/ControllersConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/config/ControllersConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sport/competitions/rest/CompetitionRestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sport/competitions/rest/CompetitionRestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/competitions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/competitions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/competitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/competitions.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +17,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -68,13 +37,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1demb\Desktop\lab3example" />
@@ -136,6 +105,14 @@
       <option name="presentableId" value="Default" />
       <updated>1684073557776</updated>
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1684079918314</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684079918314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>

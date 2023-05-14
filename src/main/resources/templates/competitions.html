@@ -36,6 +36,8 @@
                     <tr ng-repeat="competition in competitionsList" id="{{competition.id}}">
                         <td>{{competition.number}}</td>
                         <td>{{competition.name}}</td>
+                        <td>{{competition.date}}</td>
+                        <td>{{competition.place}}</td>
                         <td><input type="button" value="Удалить" ng-click="deleteCompetition(competition.id)"/></td>
                     </tr>
                 </tbody>

@@ -59,6 +59,8 @@ app.controller("CompetitionsController", function ($scope, $http) {
     };
 
     $scope.addCompetition = function () {
-        $http.post('/public/rest/competitions/' + $scope.inputnumber).then($scope.successAddCompetitionCallback, $scope.errorAddCompetitionCallback);
+        $http.post('/public/rest/competitions/' + $scope.inputnumber + "/" + $scope.inputname
+        + "/" + $scope.inputdate  + "/" + $scope.inputplace).then($scope.successAddCompetitionCallback,
+        $scope.errorAddCompetitionCallback);
     };
 });

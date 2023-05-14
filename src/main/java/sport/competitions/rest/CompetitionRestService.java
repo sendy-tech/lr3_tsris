@@ -28,8 +28,9 @@ public class CompetitionRestService {
         competitionService.delete(id);
     }
 
-    @RequestMapping(value = "/{number}/{name}", method = RequestMethod.POST)
-    public ResponseEntity<Object> add(@PathVariable("number") Integer number, @PathVariable("name") String name, @PathVariable("date") String date, @PathVariable("place") String place) {
+    @RequestMapping(value = "/{number}/{name}/{date}/{place}", method = RequestMethod.POST)
+    public ResponseEntity<Object> add(@PathVariable("number") Integer number, @PathVariable("name") String name,
+                                      @PathVariable("date") String date, @PathVariable("place") String place) {
         return ResponseEntity.ok(competitionService.add(number, name, date, place));
     }
     
